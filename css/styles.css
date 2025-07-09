@@ -161,6 +161,97 @@ a {
   margin-bottom: 0.25rem;
 }
 
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 1.5rem;
+}
 
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* Enables scrolling if content is wide */
+}
+
+.table-container th,
+.table-container td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table-container a {
+  word-break: break-word;
+  display: inline-block;
+  max-width: 150px;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.education-section, .certifications-section {
+  margin-bottom: 2rem;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px; /* This allows scroll if screen is narrower */
+}
+
+.table-responsive th,
+.table-responsive td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.table-responsive a {
+  word-break: break-word;
+  display: inline-block;
+  max-width: 150px;
+}
 
 
