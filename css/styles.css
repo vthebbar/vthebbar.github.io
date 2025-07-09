@@ -161,36 +161,6 @@ a {
   margin-bottom: 0.25rem;
 }
 
-.responsive-table {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
 
-.responsive-table table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 600px; /* Allow scrolling if content is wide */
-}
 
-.responsive-table th,
-.responsive-table td {
-  padding: 0.75rem;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
 
-@media (max-width: 600px) {
-  .responsive-table {
-    margin-bottom: 1rem;
-  }
-
-  .responsive-table table {
-    font-size: 0.9rem;
-  }
-}
-
-.responsive-table td a {
-  word-break: break-word;
-  display: inline-block;
-  max-width: 200px;
-}
